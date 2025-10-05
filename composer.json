@@ -1,0 +1,22 @@
+{
+    "name": "datahihi1/tiny-env-validator",
+    "description": "Validation helpers for tiny-env: rules and helpers to validate .env values",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "Validator.php",
+            "helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "datahihi1",
+            "email": "datahihi1100@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=7.1",
+      "datahihi1/tiny-env": ">=1.0.12"
+    }
+}
